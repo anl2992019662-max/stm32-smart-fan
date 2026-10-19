@@ -1,0 +1,57 @@
+# Credentials and local identity
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.credentials/
+
+# STM32CubeIDE generated files
+**/Debug/
+**/Release/
+**/.metadata/
+**/.recommenders/
+*.launch
+
+# Keil generated output and personal workspace settings
+**/Objects/
+**/Listings/
+**/MDK-ARM/Smart_Fan v2.3/
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.uvopt
+*.uvgui
+*.uvmpw
+*.bak
+*.o
+*.d
+*.crf
+*.dep
+*.lst
+*.lnp
+*.map
+*.elf
+*.axf
+*.su
+*.cyclo
+*.build_log.htm
+
+# Firmware builds (keep the supplied standalone artifact explicitly)
+*.hex
+*.bin
+!/代码/Smart_Fan v2.3.hex
+
+# Course reports, raw diagrams, author metadata and external paper copies
+/论文素材/
+/仿真/
+/*.docx
+/代码/备注.txt
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
