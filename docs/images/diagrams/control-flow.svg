@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950" role="img" aria-label="智能风扇模式与控制流程">
+<defs><marker id="end" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#47718e"/></marker></defs>
+<rect width="1400" height="950" fill="#fff"/>
+<rect width="1400" height="152" fill="#122b40"/>
+<rect x="44" y="38" width="6" height="75" fill="#168b91"/>
+<text x="72" y="76" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="34" fill="#fff" font-weight="700" text-anchor="start">智能风扇模式与控制流程</text>
+<text x="74" y="116" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" fill="#c9dbe8" font-weight="400" text-anchor="start">按现有源码整理，保留两套工程差异说明</text>
+<rect x="490" y="182" width="420" height="86" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="490" y="182" width="5" height="86" rx="2" fill="#168b91"/>
+<text x="509" y="214" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">初始化与首页菜单</text>
+<text x="509" y="243" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">读取按键，选择运行模式</text>
+<polyline points="700,270 700,310" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="70" y="346" width="420" height="150" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="70" y="346" width="5" height="150" rx="2" fill="#168b91"/>
+<text x="89" y="378" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">定时模式</text>
+<text x="89" y="407" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">设置时 / 分 / 秒与 PWM 值</text>
+<text x="89" y="436" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">启动倒计时；结束后停止电机</text>
+<polyline points="700,310 280,310 280,334" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="280,498 280,586 700,586 700,621" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="490" y="346" width="420" height="150" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="490" y="346" width="5" height="150" rx="2" fill="#168b91"/>
+<text x="509" y="378" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">手动模式</text>
+<text x="509" y="407" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">编码器按下切换锁定</text>
+<text x="509" y="436" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">旋转修改 0～100 控制值</text>
+<polyline points="700,310 700,310 700,334" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="700,498 700,586 700,586 700,621" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="910" y="346" width="420" height="150" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="910" y="346" width="5" height="150" rx="2" fill="#168b91"/>
+<text x="929" y="378" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">自动模式</text>
+<text x="929" y="407" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">读取温度 / 湿度并计算控制值</text>
+<text x="929" y="436" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">按所用工程检查 PA8 门控</text>
+<polyline points="700,310 1120,310 1120,334" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="1120,498 1120,586 700,586 700,621" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="430" y="633" width="540" height="120" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="430" y="633" width="5" height="120" rx="2" fill="#168b91"/>
+<text x="449" y="665" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">更新 PWM 与 OLED</text>
+<text x="449" y="694" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">继续读取输入并刷新界面</text>
+<text x="449" y="723" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">代码不提供实际 RPM 测量或闭环转速反馈</text>
+<rect x="44" y="855" width="1312" height="70" rx="10" fill="#edf3f7"/>
+<text x="65" y="883" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">自动模式 PA8 有效极性及 DHT11 初始化存在版本差异，参见 docs/VERSION_NOTES.md。</text>
+<text x="65" y="908" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">原报告照片用于展示历史状态，本图不新增计时误差或性能测试结论。</text>
+</svg>

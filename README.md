@@ -1,5 +1,19 @@
 # 基于 STM32 的智能风扇系统
 
+<!-- project-gallery:start -->
+
+![智能风扇面包板实物照片](docs/images/gallery/fan-27.jpeg)
+
+原报告中的面包板实物照片。界面中的数值是 PWM 控制值，不是实测 RPM。
+
+**[查看完整图集：30 张原图及专题结构图](docs/GALLERY.md)**
+
+## 系统总结构
+
+![系统总结构](docs/images/diagrams/architecture.svg)
+
+<!-- project-gallery:end -->
+
 基于 STM32F103C8T6 的嵌入式课程项目，通过 DHT11、旋转编码器、独立按键、OLED 和 TB6612FNG 驱动直流风扇，实现定时、手动和自动调速。保留 Keil MDK 与 STM32CubeIDE 两套原始工程。
 
 ## 功能

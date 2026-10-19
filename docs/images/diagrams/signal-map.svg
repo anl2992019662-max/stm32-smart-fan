@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-label="智能风扇信号与模块索引">
+<defs><marker id="end" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#47718e"/></marker></defs>
+<rect width="1400" height="800" fill="#fff"/>
+<rect width="1400" height="152" fill="#122b40"/>
+<rect x="44" y="38" width="6" height="75" fill="#168b91"/>
+<text x="72" y="76" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="34" fill="#fff" font-weight="700" text-anchor="start">智能风扇信号与模块索引</text>
+<text x="74" y="116" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" fill="#c9dbe8" font-weight="400" text-anchor="start">从源码引脚表整理，实际模块电平与供电需另行核对</text>
+<rect x="44" y="210" width="412" height="165" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="44" y="210" width="5" height="165" rx="2" fill="#168b91"/>
+<text x="63" y="242" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">PA0 → DHT11</text>
+<text x="63" y="271" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">单总线温湿度采集</text>
+<text x="63" y="300" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">外接上拉及供电按模块确认</text>
+<rect x="494" y="210" width="412" height="165" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="494" y="210" width="5" height="165" rx="2" fill="#168b91"/>
+<text x="513" y="242" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">PB8 / PB9 → OLED</text>
+<text x="513" y="271" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">软件 I²C 显示</text>
+<text x="513" y="300" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">SCL / SDA</text>
+<rect x="944" y="210" width="412" height="165" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="944" y="210" width="5" height="165" rx="2" fill="#168b91"/>
+<text x="963" y="242" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">PA2 / PA4 / PA5 → 驱动</text>
+<text x="963" y="271" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">PWM / AIN1 / AIN2</text>
+<text x="963" y="300" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">电机接 AO1 / AO2</text>
+<rect x="44" y="415" width="412" height="165" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="44" y="415" width="5" height="165" rx="2" fill="#168b91"/>
+<text x="63" y="447" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">PB0 / PB10 → 按键</text>
+<text x="63" y="476" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">菜单移动 / 确认</text>
+<text x="63" y="505" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">按下接地</text>
+<rect x="494" y="415" width="412" height="165" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="494" y="415" width="5" height="165" rx="2" fill="#168b91"/>
+<text x="513" y="447" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">PB1 / PB14 / PB15 → 编码器</text>
+<text x="513" y="476" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">KEY / S2 / S1</text>
+<text x="513" y="505" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">调节锁定与数值</text>
+<rect x="944" y="415" width="412" height="165" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="944" y="415" width="5" height="165" rx="2" fill="#168b91"/>
+<text x="963" y="447" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">PA8 → 检测模块</text>
+<text x="963" y="476" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">图纸、备注与代码名称不同</text>
+<text x="963" y="505" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">先核对模块，再确认有效电平</text>
+<rect x="44" y="705" width="1312" height="70" rx="10" fill="#edf3f7"/>
+<text x="65" y="733" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">这是信号索引，不替代电路设计。TB6612FNG 逻辑电源、电机电源、STBY 与共地见硬件文档。</text>
+<text x="65" y="758" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">原图与文本存在 TCRT1000 / TCRT5000 / HCSR505 命名差异，保留待核对说明。</text>
+</svg>

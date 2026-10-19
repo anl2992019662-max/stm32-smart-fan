@@ -1,0 +1,698 @@
+{
+  "updated_on": "2026-10-19",
+  "original_document_uploaded": false,
+  "images": [
+    {
+      "id": 1,
+      "path": "docs/images/gallery/fan-01.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image1.png",
+      "source_sha256": "6769f3f58e4c69da4185b5ff4db242ffae058c0824145ff5975db937b2afd672",
+      "published_sha256": "6769f3f58e4c69da4185b5ff4db242ffae058c0824145ff5975db937b2afd672",
+      "source_locations": [
+        "paragraph 104"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        993,
+        644
+      ],
+      "kind": "original-document-image",
+      "title": "DS18B20 备选温度传感器",
+      "caption": "原报告的器件选型对比图；风扇公开源码采用 DHT11，不将此图当作已用器件。"
+    },
+    {
+      "id": 2,
+      "path": "docs/images/gallery/fan-02.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image2.png",
+      "source_sha256": "610d41bd8583a59b7dc60580dcf061cfd839a48956d7acc105fe5fda392a5c5f",
+      "published_sha256": "610d41bd8583a59b7dc60580dcf061cfd839a48956d7acc105fe5fda392a5c5f",
+      "source_locations": [
+        "paragraph 107"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        474,
+        474
+      ],
+      "kind": "original-document-image",
+      "title": "DHT11 温湿度模块",
+      "caption": "原报告所用温湿度采集模块示意，DATA 信号对应 PA0。"
+    },
+    {
+      "id": 3,
+      "path": "docs/images/gallery/fan-03.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image3.jpeg",
+      "source_sha256": "78163a794909b6b00026f1603a99b45f7416ca3984c22a8de400ec5746b1efd8",
+      "published_sha256": "78163a794909b6b00026f1603a99b45f7416ca3984c22a8de400ec5746b1efd8",
+      "source_locations": [
+        "paragraph 111"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        764,
+        563
+      ],
+      "kind": "original-document-image",
+      "title": "L9110S 备选驱动模块",
+      "caption": "器件选型对比图；本项目公开接线采用 TB6612FNG。"
+    },
+    {
+      "id": 4,
+      "path": "docs/images/gallery/fan-04.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image4.png",
+      "source_sha256": "1cd7849f585ef240d281e9a87dc95c13f6c46f9385288efdd2cc8118799e25f3",
+      "published_sha256": "1cd7849f585ef240d281e9a87dc95c13f6c46f9385288efdd2cc8118799e25f3",
+      "source_locations": [
+        "paragraph 113"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        610,
+        535
+      ],
+      "kind": "original-document-image",
+      "title": "TB6612FNG 驱动模块",
+      "caption": "直流电机驱动模块图片，实际模块引脚定义仍需核对。"
+    },
+    {
+      "id": 5,
+      "path": "docs/images/gallery/fan-05.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image5.png",
+      "source_sha256": "ad14bd8a027d82196605a2ee0535f7b8dca48f4f5be2d70d85c46a47e74c5233",
+      "published_sha256": "ad14bd8a027d82196605a2ee0535f7b8dca48f4f5be2d70d85c46a47e74c5233",
+      "source_locations": [
+        "paragraph 118"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        800,
+        800
+      ],
+      "kind": "original-document-image",
+      "title": "HC-SR501 备选红外模块",
+      "caption": "原报告的方案比较图；不是本仓库确认的实际装配模块。"
+    },
+    {
+      "id": 6,
+      "path": "docs/images/gallery/fan-06.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image6.jpeg",
+      "source_sha256": "f504696187181119c543f62c8d78883a5237104a9ad217d9a73c19c380bf5e46",
+      "published_sha256": "f504696187181119c543f62c8d78883a5237104a9ad217d9a73c19c380bf5e46",
+      "source_locations": [
+        "paragraph 120"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "kind": "original-document-image",
+      "title": "反射式红外模块图片",
+      "caption": "报告标注 TCRT5000，其他资料出现 TCRT1000 / HCSR505 名称，型号和有效电平待核对。"
+    },
+    {
+      "id": 7,
+      "path": "docs/images/gallery/fan-07.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image7.png",
+      "source_sha256": "97aeba4139a3b30ca0500f90efcaa715dd629a68b1d36c271f84507fcafdc2aa",
+      "published_sha256": "97aeba4139a3b30ca0500f90efcaa715dd629a68b1d36c271f84507fcafdc2aa",
+      "source_locations": [
+        "paragraph 124"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        607,
+        512
+      ],
+      "kind": "original-document-image",
+      "title": "LCD1602 备选显示模块",
+      "caption": "选型比较图；本项目采用 OLED 显示。"
+    },
+    {
+      "id": 8,
+      "path": "docs/images/gallery/fan-08.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image8.png",
+      "source_sha256": "fc7b7cbf9acc78ce8e8d4f04028fe46e6ae4993e02131c5a423d7645d985a499",
+      "published_sha256": "fc7b7cbf9acc78ce8e8d4f04028fe46e6ae4993e02131c5a423d7645d985a499",
+      "source_locations": [
+        "paragraph 126"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "kind": "original-document-image",
+      "title": "OLED 显示模块",
+      "caption": "0.96 寸四线接口模块图片，具体电平和驱动以硬件说明为准。"
+    },
+    {
+      "id": 9,
+      "path": "docs/images/gallery/fan-09.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image9.png",
+      "source_sha256": "1e7c43e12b058d5334bc69e0fbbbd7c2a4f65b1100fac01ac471f76488ae0e0e",
+      "published_sha256": "1e7c43e12b058d5334bc69e0fbbbd7c2a4f65b1100fac01ac471f76488ae0e0e",
+      "source_locations": [
+        "paragraph 134"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1683,
+        913
+      ],
+      "kind": "original-document-image",
+      "title": "系统硬件模块电路总览",
+      "caption": "原报告电路图片，展示主控、接口和外围模块；保留原图内容，不作为本次电气验收。"
+    },
+    {
+      "id": 10,
+      "path": "docs/images/gallery/fan-10.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image10.png",
+      "source_sha256": "06d8e494fda63bf72fa88890762156bdb76ef927413042b5148902384532a207",
+      "published_sha256": "06d8e494fda63bf72fa88890762156bdb76ef927413042b5148902384532a207",
+      "source_locations": [
+        "paragraph 138"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        499,
+        562
+      ],
+      "kind": "original-document-image",
+      "title": "STM32 主控引脚连接",
+      "caption": "原报告的 MCU 连接图，使用前与源码引脚及实际板卡逐项核对。"
+    },
+    {
+      "id": 11,
+      "path": "docs/images/gallery/fan-11.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image11.png",
+      "source_sha256": "a870f0977ee61977047197c329a6a5298be04d2f66ae26f46f5640cd0cf8b45d",
+      "published_sha256": "a870f0977ee61977047197c329a6a5298be04d2f66ae26f46f5640cd0cf8b45d",
+      "source_locations": [
+        "paragraph 143"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        423,
+        247
+      ],
+      "kind": "original-document-image",
+      "title": "低速晶振原图",
+      "caption": "保留原报告截图中的元件值；晶振与负载电容需要结合实际芯片和电路复核。"
+    },
+    {
+      "id": 12,
+      "path": "docs/images/gallery/fan-12.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image12.png",
+      "source_sha256": "9084a0b59dec305825cece331c3882f0e5b3d12785b87c3ba8db1b8d42838f18",
+      "published_sha256": "9084a0b59dec305825cece331c3882f0e5b3d12785b87c3ba8db1b8d42838f18",
+      "source_locations": [
+        "paragraph 145"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        745,
+        394
+      ],
+      "kind": "original-document-image",
+      "title": "高速晶振原图",
+      "caption": "原资料的外部高速时钟电路截图。"
+    },
+    {
+      "id": 13,
+      "path": "docs/images/gallery/fan-13.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image13.png",
+      "source_sha256": "c10580507b2b0050f59e19edbb5f7dfc63aa6e0d600d1e8f06a9c5999effc997",
+      "published_sha256": "c10580507b2b0050f59e19edbb5f7dfc63aa6e0d600d1e8f06a9c5999effc997",
+      "source_locations": [
+        "paragraph 148"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        198,
+        433
+      ],
+      "kind": "original-document-image",
+      "title": "复位电路原图",
+      "caption": "NRST 按键与外围电路截图。"
+    },
+    {
+      "id": 14,
+      "path": "docs/images/gallery/fan-14.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image14.png",
+      "source_sha256": "49f0c74e1e7fbab53ff56a34bdab2f7fe624d13619fac5bb25b943fbc46c50ee",
+      "published_sha256": "49f0c74e1e7fbab53ff56a34bdab2f7fe624d13619fac5bb25b943fbc46c50ee",
+      "source_locations": [
+        "paragraph 151"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        418,
+        327
+      ],
+      "kind": "original-document-image",
+      "title": "SWD 下载接口原图",
+      "caption": "SWCLK、SWDIO、电源和地的接口示意。"
+    },
+    {
+      "id": 15,
+      "path": "docs/images/gallery/fan-15.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image15.png",
+      "source_sha256": "f30680cfe8d08437e353733a89c48978f4aec516ec53710552ebce08ca4928dc",
+      "published_sha256": "f30680cfe8d08437e353733a89c48978f4aec516ec53710552ebce08ca4928dc",
+      "source_locations": [
+        "paragraph 162"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        435,
+        235
+      ],
+      "kind": "original-document-image",
+      "title": "DHT11 接口原图",
+      "caption": "原图标注 5V 供电；与 3.3V 主控连接前应核对模块输出和上拉电压。"
+    },
+    {
+      "id": 16,
+      "path": "docs/images/gallery/fan-16.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image16.png",
+      "source_sha256": "bb8754ef45fbe51e6d75520625def2c764650609e2b3fe727cef5e710ec00827",
+      "published_sha256": "bb8754ef45fbe51e6d75520625def2c764650609e2b3fe727cef5e710ec00827",
+      "source_locations": [
+        "paragraph 171"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1285,
+        481
+      ],
+      "kind": "original-document-image",
+      "title": "红外检测电路原图",
+      "caption": "原图的器件名称与正文、代码符号有差异，保留待核对说明。"
+    },
+    {
+      "id": 17,
+      "path": "docs/images/gallery/fan-17.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image17.png",
+      "source_sha256": "2df3691f7cf224e3461a2e48d33148268c3891b3ee200ae214c207d9f02e2753",
+      "published_sha256": "2df3691f7cf224e3461a2e48d33148268c3891b3ee200ae214c207d9f02e2753",
+      "source_locations": [
+        "paragraph 181"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        610,
+        483
+      ],
+      "kind": "original-document-image",
+      "title": "独立按键电路",
+      "caption": "PB0 为菜单移动键，PB10 为确认键；原图按下接地。"
+    },
+    {
+      "id": 18,
+      "path": "docs/images/gallery/fan-18.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image18.png",
+      "source_sha256": "7425bb4e54aa87da7079e4e46bdfe89b0ee348ecc5e449386154b76a8bfc5de5",
+      "published_sha256": "7425bb4e54aa87da7079e4e46bdfe89b0ee348ecc5e449386154b76a8bfc5de5",
+      "source_locations": [
+        "paragraph 188"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        883,
+        538
+      ],
+      "kind": "original-document-image",
+      "title": "旋转编码器接口",
+      "caption": "S1 / S2 / KEY 对应 PB15 / PB14 / PB1，用于调节与锁定。"
+    },
+    {
+      "id": 19,
+      "path": "docs/images/gallery/fan-19.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image19.png",
+      "source_sha256": "42865246a723166ff3d48d75e0d7f22264ce9c35bfe5015546bf97a79007dda6",
+      "published_sha256": "42865246a723166ff3d48d75e0d7f22264ce9c35bfe5015546bf97a79007dda6",
+      "source_locations": [
+        "paragraph 202"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        262,
+        130
+      ],
+      "kind": "original-document-image",
+      "title": "OLED 接口",
+      "caption": "PB8 / PB9 对应软件 I²C 时钟与数据线。"
+    },
+    {
+      "id": 20,
+      "path": "docs/images/gallery/fan-20.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image20.png",
+      "source_sha256": "f5d0c0a4b7aeb3b8f27cf855bcbc9ad1c6bbcaae6a50572d526b1c34257f9682",
+      "published_sha256": "f5d0c0a4b7aeb3b8f27cf855bcbc9ad1c6bbcaae6a50572d526b1c34257f9682",
+      "source_locations": [
+        "paragraph 216"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        627,
+        574
+      ],
+      "kind": "original-document-image",
+      "title": "电机驱动连接原图",
+      "caption": "展示 TB6612FNG A 通道及电机端子，须结合硬件文档核对供电和 STBY。"
+    },
+    {
+      "id": 21,
+      "path": "docs/images/gallery/fan-21.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image21.png",
+      "source_sha256": "66212ab6aa60e5aab2a11fa09f760f20e5327f554637f6b5fab5b9a0ccec7a1e",
+      "published_sha256": "66212ab6aa60e5aab2a11fa09f760f20e5327f554637f6b5fab5b9a0ccec7a1e",
+      "source_locations": [
+        "paragraph 516"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1057,
+        738
+      ],
+      "kind": "original-document-image",
+      "title": "Proteus 电路历史截图",
+      "caption": "仅为原报告的仿真界面图片；当前仓库未提供可编辑仿真工程，也未在本次重新运行。"
+    },
+    {
+      "id": 22,
+      "path": "docs/images/gallery/fan-22.png",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image22.png",
+      "source_sha256": "32c211dcdb22f4f543a6a6e98af36c11d5bd007316eef318f3447c254d30964b",
+      "published_sha256": "32c211dcdb22f4f543a6a6e98af36c11d5bd007316eef318f3447c254d30964b",
+      "source_locations": [
+        "paragraph 522"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1675,
+        1246
+      ],
+      "kind": "original-document-image",
+      "title": "Keil 主函数与历史构建输出",
+      "caption": "原截图显示 0 errors、14 warnings；它不是本次图片更新重新构建得到的结果。"
+    },
+    {
+      "id": 23,
+      "path": "docs/images/gallery/fan-23.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image23.jpeg",
+      "source_sha256": "73534d45c56048a9a31195d7df6803f8677f98e75efc8d40d3a429ef7e9c5729",
+      "published_sha256": "73534d45c56048a9a31195d7df6803f8677f98e75efc8d40d3a429ef7e9c5729",
+      "source_locations": [
+        "paragraph 532"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "kind": "original-document-image",
+      "title": "定时参数设置实拍",
+      "caption": "原报告标注为设置 30 秒的操作照片；不据此推出计时精度。"
+    },
+    {
+      "id": 24,
+      "path": "docs/images/gallery/fan-24.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image24.jpeg",
+      "source_sha256": "2aedc965535ef0da2a16a01e3cc93efa7707048e0aa58c5c088c337a692009af",
+      "published_sha256": "2aedc965535ef0da2a16a01e3cc93efa7707048e0aa58c5c088c337a692009af",
+      "source_locations": [
+        "paragraph 535"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "kind": "original-document-image",
+      "title": "定时运行状态实拍",
+      "caption": "面包板、OLED 与风扇运行状态的历史照片。"
+    },
+    {
+      "id": 25,
+      "path": "docs/images/gallery/fan-25.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image25.jpeg",
+      "source_sha256": "d7d796efab91b74736169844d18fd7c0d5d99a49aebdee8c6193dc477c661070",
+      "published_sha256": "d7d796efab91b74736169844d18fd7c0d5d99a49aebdee8c6193dc477c661070",
+      "source_locations": [
+        "paragraph 537"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "kind": "original-document-image",
+      "title": "定时结束状态实拍",
+      "caption": "原报告标注的倒计时结束照片，保留为历史展示。"
+    },
+    {
+      "id": 26,
+      "path": "docs/images/gallery/fan-26.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image26.jpeg",
+      "source_sha256": "faad91e609fee3c28d9504b0fc38b7fc77e246ff7a4add3031dddb698d4c14ff",
+      "published_sha256": "faad91e609fee3c28d9504b0fc38b7fc77e246ff7a4add3031dddb698d4c14ff",
+      "source_locations": [
+        "paragraph 541"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "kind": "original-document-image",
+      "title": "手动控制值为零的实拍",
+      "caption": "控制值用于 PWM 调节；不是通过转速传感器测得的 RPM。"
+    },
+    {
+      "id": 27,
+      "path": "docs/images/gallery/fan-27.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image27.jpeg",
+      "source_sha256": "0ec9f502787ba6eae773f26523af2d962628a3e96fa7dc26047c38ef212a572d",
+      "published_sha256": "0ec9f502787ba6eae773f26523af2d962628a3e96fa7dc26047c38ef212a572d",
+      "source_locations": [
+        "paragraph 543"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "kind": "original-document-image",
+      "title": "手动调速面包板实拍",
+      "caption": "展示电机、主控、编码器和 OLED；界面中的数值为控制值。"
+    },
+    {
+      "id": 28,
+      "path": "docs/images/gallery/fan-28.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image28.jpeg",
+      "source_sha256": "876abf57596b2b7e60704e7c4f68c99598d780f5f75d479d33ead347bb8f2f52",
+      "published_sha256": "876abf57596b2b7e60704e7c4f68c99598d780f5f75d479d33ead347bb8f2f52",
+      "source_locations": [
+        "paragraph 552"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "kind": "original-document-image",
+      "title": "检测操作照片一",
+      "caption": "原报告标注 30mm 的操作场景；距离与触发效果未在本次独立测量。"
+    },
+    {
+      "id": 29,
+      "path": "docs/images/gallery/fan-29.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image29.jpeg",
+      "source_sha256": "294b564e74ab23c8d3452d76776e9490a2dee3359e5994a470c4d287a63afcd1",
+      "published_sha256": "294b564e74ab23c8d3452d76776e9490a2dee3359e5994a470c4d287a63afcd1",
+      "source_locations": [
+        "paragraph 554"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "kind": "original-document-image",
+      "title": "检测操作照片二",
+      "caption": "原报告标注 15mm 的操作场景，展示传感器门控操作。"
+    },
+    {
+      "id": 30,
+      "path": "docs/images/gallery/fan-30.jpeg",
+      "source_document": "基于STM32的智能风扇系统.docx",
+      "embedded_media": "word/media/image30.jpeg",
+      "source_sha256": "61bb816bed27177aa651a0c6e229931648249a0487c40cde622c48b9f7e06a57",
+      "published_sha256": "61bb816bed27177aa651a0c6e229931648249a0487c40cde622c48b9f7e06a57",
+      "source_locations": [
+        "paragraph 556"
+      ],
+      "ooxml_placement": {
+        "rotation": 0,
+        "crop": {}
+      },
+      "metadata_stripped": false,
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "kind": "original-document-image",
+      "title": "检测操作照片三",
+      "caption": "原报告标注 5mm 的操作场景，保留原始照片，不新增距离测试结论。"
+    }
+  ],
+  "processing_note": "保留图像内容。必要的旋转与裁切还原原 OOXML 页面显示，导出时删除 EXIF/XMP 等元数据。无 AI 重绘实物照片、界面或测量图。",
+  "new_diagrams": "docs/images/diagrams/*.svg 为根据当前公开代码与资料重新绘制的功能示意。"
+}

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-label="智能风扇系统总结构">
+<defs><marker id="end" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#47718e"/></marker></defs>
+<rect width="1400" height="1000" fill="#fff"/>
+<rect width="1400" height="152" fill="#122b40"/>
+<rect x="44" y="38" width="6" height="75" fill="#168b91"/>
+<text x="72" y="76" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="34" fill="#fff" font-weight="700" text-anchor="start">智能风扇系统总结构</text>
+<text x="74" y="116" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" fill="#c9dbe8" font-weight="400" text-anchor="start">STM32F103C8T6   原始工程功能关系与引脚索引</text>
+<text x="52" y="198" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="22" fill="#168b91" font-weight="700" text-anchor="start">输入与采集</text>
+<text x="1018" y="198" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="22" fill="#168b91" font-weight="700" text-anchor="start">输出与展示</text>
+<rect x="44" y="222" width="350" height="116" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="44" y="222" width="5" height="116" rx="2" fill="#168b91"/>
+<text x="63" y="254" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">环境采集</text>
+<text x="63" y="283" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">DHT11 温度 / 湿度</text>
+<text x="63" y="312" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">DATA：PA0</text>
+<rect x="44" y="362" width="350" height="116" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="44" y="362" width="5" height="116" rx="2" fill="#168b91"/>
+<text x="63" y="394" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">菜单与调节</text>
+<text x="63" y="423" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">PB0 / PB10 独立按键</text>
+<text x="63" y="452" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">PB1 / PB14 / PB15 编码器</text>
+<rect x="44" y="502" width="350" height="116" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="44" y="502" width="5" height="116" rx="2" fill="#168b91"/>
+<text x="63" y="534" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">检测门控</text>
+<text x="63" y="563" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">PA8 输入电平</text>
+<text x="63" y="592" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">模块型号与有效电平待核对</text>
+<rect x="1006" y="222" width="350" height="116" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="1006" y="222" width="5" height="116" rx="2" fill="#168b91"/>
+<text x="1025" y="254" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">电机驱动</text>
+<text x="1025" y="283" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">TB6612FNG A 通道</text>
+<text x="1025" y="312" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">PA2 PWM；PA4 / PA5 方向</text>
+<rect x="1006" y="362" width="350" height="116" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="1006" y="362" width="5" height="116" rx="2" fill="#168b91"/>
+<text x="1025" y="394" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">状态显示</text>
+<text x="1025" y="423" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">0.96 寸 OLED</text>
+<text x="1025" y="452" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">PB8 SCL / PB9 SDA</text>
+<rect x="1006" y="502" width="350" height="116" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="1006" y="502" width="5" height="116" rx="2" fill="#168b91"/>
+<text x="1025" y="534" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">直流风扇</text>
+<text x="1025" y="563" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">AO1 / AO2 接电机</text>
+<text x="1025" y="592" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">Speed 为控制值，非实测 RPM</text>
+<rect x="520" y="326" width="360" height="180" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="520" y="326" width="5" height="180" rx="2" fill="#168b91"/>
+<text x="539" y="358" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="24" fill="#17374d" font-weight="700" text-anchor="start">STM32F103C8T6</text>
+<text x="539" y="387" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">定时 / 手动 / 自动模式</text>
+<text x="539" y="416" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">采样、菜单、PWM 控制</text>
+<polyline points="399,280 449,280 449,416 508,416" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="892,416 948,416 948,280 994,280" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="399,420 449,420 449,416 508,416" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="892,416 948,416 948,420 994,420" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="399,560 449,560 449,416 508,416" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="892,416 948,416 948,560 994,560" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="44" y="686" width="412" height="153" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="44" y="686" width="5" height="153" rx="2" fill="#168b91"/>
+<text x="63" y="718" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">软件入口</text>
+<text x="63" y="747" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">Keil MDK 与 STM32CubeIDE</text>
+<text x="63" y="776" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">两套源码存在控制差异</text>
+<rect x="494" y="686" width="412" height="153" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="494" y="686" width="5" height="153" rx="2" fill="#168b91"/>
+<text x="513" y="718" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">实物资料</text>
+<text x="513" y="747" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">已提供面包板照片</text>
+<text x="513" y="776" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">历史照片与当前构建分开判断</text>
+<rect x="944" y="686" width="412" height="153" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="944" y="686" width="5" height="153" rx="2" fill="#168b91"/>
+<text x="963" y="718" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">阅读重点</text>
+<text x="963" y="747" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">核对 PA8 模块与信号极性</text>
+<text x="963" y="776" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">再按硬件文档检查连接</text>
+<rect x="44" y="905" width="1312" height="70" rx="10" fill="#edf3f7"/>
+<text x="65" y="933" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">按公开源码和原资料整理。箭头表示功能数据关系，不代表可直接照接的电气线路。</text>
+<text x="65" y="958" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">原始 HEX 对应源码版本未确认；本次图片更新未新增实物测试结论。</text>
+</svg>
